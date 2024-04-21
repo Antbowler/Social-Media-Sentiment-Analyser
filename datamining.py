@@ -1,8 +1,8 @@
 from ntscraper import Nitter
 
-##add search term in here
+#add search term in here
 search_term = "" 
-##limit of tweets to be retrieved
+#limit of tweets to be retrieved
 num_tweets = 100
 
 scraper = Nitter(log_level=1, skip_instance_check=False)
